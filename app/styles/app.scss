@@ -1,0 +1,9 @@
+$gutter : 2.5rem;
+
+.page-title{
+	margin-top: $gutter;
+	margin-bottom: $gutter;
+}
+input[type=search]{
+	box-shadow: none;
+}
