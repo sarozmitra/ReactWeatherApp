@@ -8,7 +8,7 @@ var ErrorModal = React.createClass({
 			title: 'Error'
 		};
 	},
-
+  
 	propTypes: {
       	title: React.PropTypes.string,
       	message: React.PropTypes.string.isRequired
@@ -30,7 +30,7 @@ var ErrorModal = React.createClass({
 
 		var $modal = $(ReactDOMServer.renderToString(modalMarkup));
 		$(ReactDOM.findDOMNode(this)).html($modal);
-		var modal = new Foundation.Reveal($('#error-modal'));
+		var modal = new Foundation.Reveal($('#error-modal')); 
 		modal.open();
 	},
 

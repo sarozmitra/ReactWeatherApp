@@ -14,7 +14,7 @@ var Nav = React.createClass({
 			window.location.hash ='#/?location=' + encodedLocation;
 		}
 	},
-
+  
 	render: function(){
 		return(
 		<div className="top-bar">
@@ -22,7 +22,7 @@ var Nav = React.createClass({
 			<div className="top-bar-left">
 				<ul className="menu">
 					<li className="menu-text">
-						React Weather App
+						React Weather app
 					</li>
 					<li>
 						<IndexLink to="/" activeClassName="active">Get Weather</IndexLink>
